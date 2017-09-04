@@ -9,7 +9,8 @@ case object Ping
 case object Pong
 
 class Pinger extends Actor with ActorLogging {
-  var countDown = 100
+
+  var countDown = 10
 
   def receive = {
     case Pong =>

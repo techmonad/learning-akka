@@ -3,6 +3,7 @@ package com.techmonad.akka.actor
 import akka.actor.{Actor, ActorLogging, ActorSystem, Props}
 
 class HelloActor extends Actor with ActorLogging {
+
   def receive = {
     case msg => log.info(s"Received massage $msg")
 
