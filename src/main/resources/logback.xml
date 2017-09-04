@@ -12,7 +12,7 @@
         </rollingPolicy>
         <append>true</append>
         <encoder>
-            <pattern>%highlight([%level]) - [%date] - [%logger] %msg%n</pattern>
+            <pattern>[%level] - [%date] - [%logger] %msg%n</pattern>
         </encoder>
     </appender>
     <root level="debug">
